@@ -1,0 +1,46 @@
+.caret:hover {
+    cursor: pointer;
+}
+
+.week-day {
+    color: orange;
+}
+
+.day {
+    margin:5px;
+    padding: 6px;
+    font-weight: 400;
+
+    border-radius: 4px;
+}
+
+.available { 
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.available:hover {
+    background-color: rgb(1, 167, 1);
+}
+
+.unavailable {
+    background-color: rgb(231, 231, 231);
+}
+
+.day-selected, .hour-selected {
+    background-color: rgb(1, 167, 1);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* --------------- Time --------------- */
+
+.time {
+    margin:5px;
+    padding: 4px;
+    font-weight: 400;
+
+    border-radius: 4px;
+}
